@@ -1,6 +1,6 @@
 """test.py: Test class for the neural network."""
 
-__author__ = "Jordon Dornbos"
+__author__ = "Jordon Dornbos & Drew"
 
 import math
 import example
@@ -10,7 +10,7 @@ import random
 
 
 def test(name, examples, alpha, iteration_max, num_hidden_layers, num_nodes_per_hidden_layer, random_weights=None,
-         verbose=True, min_xy=0, max_xy=1, step=0.01):
+         verbose=True, min_xy=0, max_xy=1, step=0.02):
     print 'Testing ' + name
 
     # create the network
